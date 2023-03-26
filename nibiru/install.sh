@@ -12,7 +12,7 @@ echo 'export NIBIRU_NODENAME='$NIBIRU_NODENAME >> $HOME/.profile
 echo "-----------------------------------------------------------------------------"
 echo "Устанавливаем софт"
 echo "-----------------------------------------------------------------------------"
-sudo apt update && sudo apt upgrade -y
+#sudo apt update && sudo apt upgrade -y
 curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/ufw.sh | bash &>/dev/null
 curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/go.sh | bash &>/dev/null
 sudo apt install --fix-broken -y &>/dev/null
